@@ -1,22 +1,39 @@
-li{
+li {
+    float: left;
+    list-style: none;
 }
-ul{
+ul {
+    overflow: auto;
 }
 
 main, article {
+    border: 1px solid black;
+    padding: 5px;
 }
 
-main{
+main {
+    float: left;
+    width: 45%;
 } 
 
-.lateral-um{
+.lateral-um {
+    float: left;
+    width: 25%;
 }
 
-.lateral-dois{
+.lateral-dois {
+    float: right;
+    width: 25%;
 }
 
-footer{
+footer {
+    clear: both;
+    background-color: yellow;
 }
 
-footer p{
+footer p {
+    float: right;
+}
+.clearfix {
+    clear: both;
 }
